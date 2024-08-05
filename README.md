@@ -8,11 +8,17 @@ This project aims to create a simple intuitive todo list for the terminal. It pr
 To install this tool, one must have Golang installed on their system. After this, this project can be cloned to a desired location, and installed with the following steps:
 
 ```bash
-go build -o "<bin_dir>/godo" main.go
+$ go build -o "<bin_dir>/godo" main.go
 ```
 
 The tool can now be used with the `godo` command.
 
+
+Alternatively run the program with the Golang runtime directly:
+
+```bash
+$ go run main.go --help
+```
 
 # Usage
 
